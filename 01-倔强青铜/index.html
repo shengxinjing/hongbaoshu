@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<script>
+
+
+  let table = ''
+  for(let i=1;i<=9;i++){
+    for(let j=1;j<=i;j++){
+      let ret = i*j
+      if(ret<10){
+        ret = ' '+ret
+      }
+      table += i+'*'+j+'='+ret + ' '
+    }
+    table +='\n'
+  }
+  console.log(table)
+</script>
+</body>
+</html>
